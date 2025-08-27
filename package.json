@@ -1,0 +1,27 @@
+{
+  "name": "manager",
+  "version": "1.0.0",
+  "description": "CLI файловый менеджер",
+  "main": "index.js",
+  "bin": {
+    "fm": "./bin/fm.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "manager",
+    "cli"
+  ],
+  "author": "o9nix",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chalk": "^4.1.2",
+    "enquirer": "^2.4.1",
+    "ink": "^6.2.2",
+    "path": "^0.12.7",
+    "react": "^19.1.1"
+  }
+}
