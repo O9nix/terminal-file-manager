@@ -44,7 +44,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/o9nix/terminal-file-manager.git
+   git clone https://github.com/O9nix/terminal-file-manager.git
    ```
    
 Установите зависимости:
@@ -56,8 +56,8 @@ npm install
 Запустите файловый менеджер:
 
 ```bash
-
-node index.js
+npm link
+fm
 ```
 🛠️ Технологии
 Node.js
